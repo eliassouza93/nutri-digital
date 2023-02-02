@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.tela {
+ 
+    width: 60%;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    padding: 20px;
+
+}
+
+label {
+    font-size: 21px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.botao,
+input {
+    width: 35%;
+    font-size: 21px;
+    cursor: pointer;
+    
+}
+.botao{
+    background-color: grey;
+    border-radius:4px;
+    color: yellow;
+    border: none;
+    &:active{
+        background-color: green;
+        transform: scale(1.1);
+        transition: all 0.1s;
+    }
+}
